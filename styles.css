@@ -1,0 +1,48 @@
+a[href="google.com"]:hover {
+    font-weight: bold;
+    color: lightblue;
+}
+
+a[href="https://www.facebook.com/"]:active {
+    color: red;
+    font-style:italic;
+}
+
+a[href="https://www.instagram.com/"]:visited {
+    color: yellow;
+}
+
+.input-email:focus {
+    font-size: 20px;
+    color: green;
+    border: 2px solid aqua;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul:first-child {
+    padding-left: 0px;
+}
+
+nav li:first-child {
+    margin-left: 0px;
+}
+
+.input-li:focus { /*doenst work*/
+    border-color: 3px solid aqua;
+}
+
+nav {
+    background-color: lightblue;
+}
+
+.current-page {  
+    background-color: purple;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
